@@ -1,0 +1,19 @@
+.toolie {
+    cursor: pointer;
+}
+
+.tooltip {
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: black;
+    opacity: 0;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.tooltip.toolie_visible {
+    opacity: 0.8;
+}
